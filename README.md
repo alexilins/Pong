@@ -1,7 +1,7 @@
 # Pong
 HTML5 Canvas Pong game
 
-[Play](https://alexilins.github.io/Pong)
+[Play](https://alexilins.github.io/pong)
 
 Rules:
 * controls implemented via getting mouse position, so play on desktop
