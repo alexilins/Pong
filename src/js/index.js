@@ -25,6 +25,8 @@ const Pong = class {
             if (this._vars.showingWinScreen) {
                 this._vars.player1Score = 0;
                 this._vars.player2Score = 0;
+                this._vars.ballSpeedX = 4.1;
+                this._vars.ballSpeedY = 4.1;
                 this._vars.showingWinScreen = false;
             }
         });
