@@ -33,10 +33,10 @@ gulp.task( "buildScripts", function() {
 	return gulp.src( [
 		"src/js/index.js"
 	] )
-	// .pipe( babel({
-    //     presets: ["es2015"]
-    // }) )
-	// .pipe( uglify() )
+	.pipe( babel({
+        presets: ["es2015"]
+    }) )
+	.pipe( uglify() )
 	.pipe( rename( "bundle.min.js" ) )
 	.pipe( gulp.dest( "dist/" ) )
 	.pipe( reload( {stream:true} ) );
